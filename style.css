@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1px solid red;
+  }
+header{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 9.375rem;
+}
+  
+.container{
+    padding: 0 25px;
+    /* width: 100%; */
+    max-width: 1920px;
+    /* margin: 0 auto; */
+    background-color: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+nav > h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.section-primary{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.section-title > h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 25px;
+}
+.section-title > p{
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 10px 15px 10px 8px;
+}
+.button{
+    width: 180px;
+    height: 64px;
+    background-color: orange;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+/* .banner{
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+} */
+.section-primary > img{
+    margin: 25px 25px;
+    padding-bottom: 25px;
+}
+.second-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 537px;
+    height: 304px;
+}
+.text > h2 > .span-one{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.text > h2{
+    font-weight: 500;
+    font-size: 45px;
+    color: #131313;
+}
+.text > h2 > .span-two{
+    font-weight: 500;
+    font-size: 45px;
+    color: #FF900E;
+}
+.text > h2{
+    margin-bottom: 25px;
+}
+.text > p{
+    margin-bottom: 25px;
+}
+.teams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+    
