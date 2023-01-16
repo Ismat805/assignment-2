@@ -131,6 +131,7 @@ nav > ul{
  font-weight: 700;
  font-size: 45px;
  margin-bottom: 20px;
+ border-left: 4px solid #FF900E;
 
 }
 .features-details > .main-paragraph{
@@ -227,4 +228,32 @@ height: 982px;
 footer > h4{
     text-align: center;
     margin-bottom: 50px;
+}
+
+               /* media query about mobile responsive */
+
+@media screen and (max-width: 576px) {
+         .container{
+            display: block;
+         }
+     .teams{
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .second-part{
+        display: block;
+    
+     }
+     .feature-section{
+        display: block;
+        
+     }
+     .section-images{
+        display: block;
+     }
+     .sponsors{
+        display: block;
+        flex-wrap: nowrap;
+     }
+
+
 }
