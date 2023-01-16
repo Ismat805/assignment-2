@@ -205,10 +205,12 @@ height: 982px;
 }
 .icons > img{
    width: 100px;
+   margin-bottom: 20px;
 }
 .icons > h6{
     font-weight: 600;
 font-size: 30px;
+margin-bottom: 20px;
 }
 .icons > p{
     font-weight: 600;
