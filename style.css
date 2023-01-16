@@ -9,6 +9,9 @@ body{
     padding: 0;
     border-radius: 1px solid red;
   }
+
+  /* -----------------header section styles---------------- */
+
 header{
     width: 100%;
     height: 100vh;
@@ -17,9 +20,7 @@ header{
   
 .container{
     padding: 0 25px;
-    /* width: 100%; */
     max-width: 1920px;
-    /* margin: 0 auto; */
     background-color: rgba(255, 144, 14, 0.1);
 }
 nav{
@@ -67,15 +68,13 @@ nav > ul{
     font-size: 20px;
     margin-bottom: 50px;
 }
-/* .banner{
-    width: 50%;
-    height: 50%;
-    padding: 50px;
-} */
 .section-primary > img{
     margin: 25px 25px;
     padding-bottom: 25px;
 }
+
+        /* -----------------teams section styles---------------- */
+
 .second-part{
     display: flex;
     justify-content: space-between;
@@ -115,6 +114,9 @@ nav > ul{
     grid-column-gap: 25px;
     grid-row-gap: 25px;
 }
+
+             /* -----------------feature section styles---------------- */
+
 .feature-section{
     display: flex;
     justify-content: center;
@@ -164,13 +166,16 @@ height: 982px;
     color: white;
     font-size: 20px;
     margin-bottom: 100px;
-    margin-top: -150px;
+    margin-top: -300px;
     padding: 30px;
 }
 .button-sec > .span-3{
     font-size: 30px;
     font-weight: 700;
 }
+
+        /* -----------------facts section styles---------------- */
+
 .section_details{
     margin-bottom: 100px;
 }
@@ -194,6 +199,8 @@ height: 982px;
 .section-images > div > img{
     width: 150px;
 }
+               /* -----------------sponsors section styles---------------- */
+
 .sponsors-section{
     text-align: center;
 }
@@ -203,17 +210,21 @@ height: 982px;
     margin-bottom: 30px;
 }
 .details_section > p{
-    margin-bottom: 50px;
-}
-.sponsors > ul{
-
-    list-style: none;
-}
-.sponsors > li{
-    gap: 50px;
+    margin-bottom: 100px;
+    font-weight: 400;
+    font-size: 16px;
 }
 .sponsors{
-   display: flex;
-   justify-content: space-around;
-   flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        mix-blend-mode: luminosity;
+        margin-bottom: 100px;
+      }
+
+       /* -----------------footer section styles---------------- */
+
+footer > h4{
+    text-align: center;
+    margin-bottom: 50px;
 }
