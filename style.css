@@ -197,8 +197,23 @@ height: 982px;
     margin-bottom: 100px;
 
 }
-.section-images > div > img{
-    width: 150px;
+.icons{
+    border: 1px solid #FF900E;
+    transform: scale(0.75);
+    width: 169px;
+    height: 136.22px;
+}
+.icons > img{
+   width: 100px;
+}
+.icons > h6{
+    font-weight: 600;
+font-size: 30px;
+}
+.icons > p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
 }
                /* -----------------sponsors section styles---------------- */
 
